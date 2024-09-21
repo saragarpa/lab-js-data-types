@@ -43,7 +43,7 @@ console.log(result);
 const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
- const tipAmount = billTotal * 0.15
+ const tipAmount = billTotal * 0.15;
 
 // Print out the tipAmount
 console.log(tipAmount)
@@ -72,15 +72,28 @@ const b = false;
 
 // Try and guess the output of the below expressions first and write your answers down:
 const expression1 = a && b;
-
+// false
+console.log(expression1);
 const expression2 = a || b;
+// true
+console.log(expression2);
 
 const expression3 = !a && b;
+//false
+console.log(expression3);
 
 const expression4 = !(a && b);
+//true
+console.log(expression4);
 
 const expression5 = !a || !b;
+//true
+console.log(expression5);
 
 const expression6 = !(a || b);
+//false
+console.log(expression6);
 
 const expression7 = a && a;
+//true
+console.log(expression7);
