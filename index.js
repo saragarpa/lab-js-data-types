@@ -24,11 +24,16 @@ console.log(tongueTwister);
 const part1 = "java";
 const part2 = "script";
 
+
+//"javAscripT"
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
+const java = part1.slice(0,part1.length - 1) + part1[3].toUpperCase();
+const script = part2.slice(0,part2.length - 1) + part2[5].toUpperCase();
+const result = java + script;
 
 
 // Print the cameLtaiL-formatted string
-
+console.log(result);
 
 
 
